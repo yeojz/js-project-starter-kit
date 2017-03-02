@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "es2015"
+  ],
+  "plugins": [
+    "transform-export-extensions",
+    "transform-object-rest-spread",
+    "dev-expression"
+  ],
+  "env": {
+     "test": {
+       "plugins": ["rewire"]
+     }
+   }
+}
