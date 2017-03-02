@@ -39,13 +39,13 @@ This starter kit is configured to **auto publish to npm** when you tag a build a
 
 ### Circle CI
 
-You will still need to provide `NPM_PASS`, `NPM_USER`, `NPM_EMAIL` as environment variables (Documentation)[https://circleci.com/docs/1.0/environment-variables/#setting-environment-variables-for-all-commands-using-circleyml]
+You will still need to provide `NPM_PASS`, `NPM_USER`, `NPM_EMAIL` as environment variables - [Documentation](https://circleci.com/docs/1.0/environment-variables/#setting-environment-variables-for-all-commands-using-circleyml)
 
 You will also need to replace `<your username>` under `release` section in `circle.yml` to your npm username.
 
 ### Travis CI
 
-You will need to provide your `NPM_EMAIL` and `NPM_API_KEY` as a Travis environment variables ([Documentation](https://docs.travis-ci.com/user/deployment/npm/))
+You will need to provide your `NPM_EMAIL` and `NPM_API_KEY` as a Travis environment variables - [Documentation](https://docs.travis-ci.com/user/deployment/npm/)
 
 
 ## Coverage
