@@ -1,6 +1,7 @@
 # js-project-starter-kit
 
-Starter kit for JavaScript projects.
+This is a no-frills starter kit for JavaScript projects. 
+It's meant to be a quickstart especially for small library projects.
 
 ## Getting Started
 
