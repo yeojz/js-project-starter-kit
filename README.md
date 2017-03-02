@@ -1,5 +1,7 @@
 # js-project-starter-kit
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/yeojz/js-project-starter-kit.svg)](https://greenkeeper.io/)
+
 Starter kit for JavaScript projects.
 
 ## Getting Started
