@@ -1,7 +1,5 @@
-# Hello world
-
-const run = () => (
-  console.log('hello world');
+const runner = () => (
+  'hello world'
 );
 
-export default run();
+export default runner;
