@@ -27,9 +27,33 @@ then run:
 
 ```
 npm install
+
 // or
+
 yarn install
 ```
+
+## Warning: Auto publishing
+
+This starter kit is configured to **auto publish to npm** when you tag a build and that build passes. 
+
+### Circle CI
+
+You will still need to provide `NPM_PASS`, `NPM_USER`, `NPM_EMAIL` as environment variables (Documentation)[https://circleci.com/docs/1.0/environment-variables/#setting-environment-variables-for-all-commands-using-circleyml]
+
+You will also need to replace `<your username>` under `release` section in `circle.yml` to your npm username.
+
+### Travis CI
+
+You will need to provide your `NPM_EMAIL` and `NPM_API_KEY` as a Travis environment variables ([Documentation](https://docs.travis-ci.com/user/deployment/npm/))
+
+
+## Coverage
+
+Coverage is provided by [nyc](https://github.com/istanbuljs/nyc) with reports configured to upload to coveralls when test passes. 
+
+If you do want to use coveralls, you'll need to provide `COVERALLS_REPO_TOKEN` in your CI's environment variable.
+
 
 [travis-badge]: https://img.shields.io/travis/yeojz/js-project-starter-kit.svg?style=flat-square
 [travis-link]: https://travis-ci.org/yeojz/js-project-starter-kit
